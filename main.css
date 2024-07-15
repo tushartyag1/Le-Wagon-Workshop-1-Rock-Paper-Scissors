@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #00094B;
+  background: #FFB343;
 }
 
 .logo {
@@ -52,7 +52,7 @@ body {
   margin-top: 100px;
   padding: 15px 50px;
   background: white;
-  color: #00094B;
+  color: #FFB343;
   border-radius: 5px;
   box-shadow: -5px 5px 10px rgba(0,0,0,0.2);
   cursor: pointer;
