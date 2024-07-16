@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Courier New';
-  font-weight:  bold;
+  font-weight: bold;
 }
 
 .page__container {
@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #FFB343;
+  background: #FFD700; 
 }
 
 .logo {
@@ -32,7 +32,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background: white;
+  background: #FFD700; 
   border-radius: 5px;
   box-shadow: -5px 5px 10px rgba(0,0,0,0.2);
 }
@@ -44,19 +44,24 @@ body {
 #result-area {
   width: 200px;
   text-align: center;
-  color: white;
+  color: #FFD700; 
 }
 
 #play-btn {
   font-size: 25px;
   margin-top: 100px;
   padding: 15px 50px;
-  background: white;
-  color: #FFB343;
+  background: #FFD700; 
+  color: black;
   border-radius: 5px;
   box-shadow: -5px 5px 10px rgba(0,0,0,0.2);
   cursor: pointer;
 }
+
+#play-btn:hover {
+  box-shadow: -1px 1px 10px rgba(0,0,0,0.2);
+}
+
 
 #play-btn:hover {
   box-shadow: -1px 1px 10px rgba(0,0,0,0.2);
